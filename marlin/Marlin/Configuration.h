@@ -1991,17 +1991,23 @@
 //
 // Preheat Constants - Up to 6 are supported without changes
 //
-#define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 185
-#define PREHEAT_1_TEMP_BED     45
+#define PREHEAT_1_LABEL       "PETG"
+#define PREHEAT_1_TEMP_HOTEND 240
+#define PREHEAT_1_TEMP_BED     70
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
-#define PREHEAT_2_LABEL       "ABS"
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED     70
+#define PREHEAT_2_LABEL       "PLA"
+#define PREHEAT_2_TEMP_HOTEND 185
+#define PREHEAT_2_TEMP_BED     45
 #define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
+
+#define PREHEAT_3_LABEL       "ABS"
+#define PREHEAT_3_TEMP_HOTEND 240
+#define PREHEAT_3_TEMP_BED     70
+#define PREHEAT_3_TEMP_CHAMBER 35
+#define PREHEAT_3_FAN_SPEED   255 // Value from 0 to 255
 
 /**
  * Nozzle Park
@@ -2907,8 +2913,8 @@
 //#define DWIN_CREALITY_LCD           // Creality UI
 //#define DWIN_LCD_PROUI              // Pro UI by MRiscoC
 //#define DWIN_CREALITY_LCD_JYERSUI   // Jyers UI by Jacob Myers
-//#define DWIN_MARLINUI_PORTRAIT      // MarlinUI (portrait orientation)
-#define DWIN_MARLINUI_LANDSCAPE       // MarlinUI (landscape orientation)
+#define DWIN_MARLINUI_PORTRAIT      // MarlinUI (portrait orientation)
+//#define DWIN_MARLINUI_LANDSCAPE     // MarlinUI (landscape orientation)
 
 //
 // Touch Screen Settings
